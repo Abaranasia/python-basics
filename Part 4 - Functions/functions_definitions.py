@@ -33,3 +33,11 @@ def factorial(num):
   else:
     return num* factorial(num-1)
 
+
+def tax_calculator():
+  def calculate_price(amount, tax):
+    return amount+(amount*tax/100)
+
+  amount = float(input('Enter the money amount: '))
+  tax = float(input('Enter the tax percentage: '))
+  print(f'€{calculate_price(amount, tax)}')
