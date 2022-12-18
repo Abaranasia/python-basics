@@ -42,3 +42,10 @@ for key, value in dictionary.items(): # filters a dict by value
     if value != 'Primary key':
         newdict[key]= value
 print (newdict)
+
+item = {
+    'ISO': 'International Organization for Standardization'
+}
+
+dictionary.update(item) # Append a new object to a dictionary
+print (dictionary)
