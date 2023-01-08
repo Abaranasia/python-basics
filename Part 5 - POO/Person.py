@@ -22,7 +22,5 @@ person2 = Person('Ann', '@ann', 27)
 person1.display_details()
 person2.display_details()
 
-# using getter and setter to read and set properties of the object
-
-person1.name= "Edward"
-print (person1.name)
+person1.name= "Edward" # using setter to write
+print (person1.name) # using getter to read
