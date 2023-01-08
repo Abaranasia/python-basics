@@ -10,6 +10,8 @@ def insert_after(new_color, existing_color):
 
 insert_after('yellow', 'cyan') #Should insert yellow between cyan and green
 
+#####################################################################
+
 items = [
   {
     "id": 11,
@@ -42,6 +44,8 @@ def print_object(item_id):
 
 print_object(11)
 
+#####################################################################
+
 def insert_inbetween(new_item, previous_item_id):
   # This function will insert a given item inbetween two exisitng items and reconnect them
   print ("Initial: ", items)
@@ -56,7 +60,7 @@ def insert_inbetween(new_item, previous_item_id):
     new_item['next']= next_reference
 
     items.insert(previous_item_position+1, new_item)
-    
+
   print ('after: ',items)
 
 insert_inbetween(new_item, 122) #Should insert the new item between 22 and 33
