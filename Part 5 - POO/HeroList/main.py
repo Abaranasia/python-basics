@@ -1,4 +1,4 @@
-from Hero import * 
+from Hero import *
 
 heroes = []
 
@@ -19,7 +19,6 @@ def add_hero ():
     # email= input ('Enter the email: ')
     heroe = Hero(alias, name, surname, '')
     heroes.append(heroe)
-    
     
     
 select= 1

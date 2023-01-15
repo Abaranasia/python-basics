@@ -1,5 +1,5 @@
 class Person:
-    
+
     def __init__(self, name, surname, email): # constructor
             self._name= name
             self._surname = surname

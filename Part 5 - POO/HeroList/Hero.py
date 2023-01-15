@@ -1,5 +1,6 @@
 from Person import Person
 
+
 class Hero(Person):
     def __init__ (self, alias, name, surname, email):
         super().__init__(name, surname, email)
