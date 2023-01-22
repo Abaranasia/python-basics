@@ -35,7 +35,9 @@ class Product:
       return (f'Product Id: {self._id_product}, Name: {self._name}, Price: {self._price}')
 
 if __name__ == '__main__':
-  product1 = Product('Laptop Asus MX100F', 1650.00)
+  product1 = Product('Laptop Asus MK100F', 1650.00)
   print (product1)
-  product2 = Product('Laptop Asus MX240F', 1800.00)
+  product2 = Product('Laptop Asus MXP240F', 1800.00)
   print (product2)
+  product3 = Product('Optical mouse Logitech MX100', 100.00)
+  print (product3)
