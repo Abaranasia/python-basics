@@ -23,18 +23,3 @@ class Order:
       products_str += ' - ' + product.__str__() + '\n'
     
     return f'Order #{self._order_id} includes:\n{products_str}'
-
-
-if __name__ == '__main__':
-  product1 = Product('Laptop Asus MK100F', 1650.00)
-  product2 = Product('Laptop Asus MXP240F', 1800.00)
-  product3 = Product('Optical mouse Logitech MX100', 100.00)
-
-  products = [product1, product2 ]
-
-  order1 = Order(products)
-  order1.add_product(product3)
-  
-
-print(order1)
-print ('Total price: €'+str(order1.calculate_total()))
