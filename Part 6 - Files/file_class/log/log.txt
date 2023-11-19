@@ -1,1 +1,3 @@
-Happy log!
+User has connected to the system 
+User was checking files and managing stuff 
+User disconnected form the system. EOT 
