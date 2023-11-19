@@ -18,9 +18,6 @@ hero3 = ( # Tuple is similar to list but immutable; items cannot be updated
   name,
   age
 )
-print (hero)
-print (type(hero))
-print (hero2)
-print (type(hero2))
-print (hero3)
-print (type(hero3))
+print ('Hero: ', hero, type(hero))
+print ('Hero2: ', hero2, type(hero2))
+print ('Hero3: ', hero3, type(hero3))
